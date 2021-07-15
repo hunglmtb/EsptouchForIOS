@@ -586,7 +586,7 @@
 				ORGANIZATIONNAME = Espressif;
 				TargetAttributes = {
 					077B60071AC036C3000AC046 = {
-						DevelopmentTeam = QWXF6GB4AV;
+						DevelopmentTeam = VFHJZ6KV77;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.AccessWiFi = {
@@ -595,6 +595,7 @@
 						};
 					};
 					077B60281AC036C3000AC046 = {
+						DevelopmentTeam = VFHJZ6KV77;
 						TestTargetID = 077B60071AC036C3000AC046;
 					};
 				};
@@ -862,13 +863,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2.2.0;
-				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				DEVELOPMENT_TEAM = VFHJZ6KV77;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EspTouchDemo/EspTouchDemo-Prefix.pch";
 				INFOPLIST_FILE = "EspTouchDemo/EspTouchDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MARKETING_VERSION = 2.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.app.esptouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.lazico.esptouch;
 				PRODUCT_NAME = EspTouchDemo;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -886,13 +887,13 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2.2.0;
-				DEVELOPMENT_TEAM = QWXF6GB4AV;
+				DEVELOPMENT_TEAM = VFHJZ6KV77;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EspTouchDemo/EspTouchDemo-Prefix.pch";
 				INFOPLIST_FILE = "EspTouchDemo/EspTouchDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MARKETING_VERSION = 2.2.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.app.esptouch;
+				PRODUCT_BUNDLE_IDENTIFIER = com.espressif.lazico.esptouch;
 				PRODUCT_NAME = EspTouchDemo;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -904,6 +905,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EspTouchDemo.app/EspTouchDemo";
+				DEVELOPMENT_TEAM = VFHJZ6KV77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -927,6 +929,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EspTouchDemo.app/EspTouchDemo";
+				DEVELOPMENT_TEAM = VFHJZ6KV77;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
